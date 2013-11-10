@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteBase /salesdrive/admin/
+DirectoryIndex index.php

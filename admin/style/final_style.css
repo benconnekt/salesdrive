@@ -1,0 +1,375 @@
+BODY {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #f6f6f6;
+
+}
+
+.topHead2 {
+  font-weight: Bold;
+  font-family: Tahoma; 
+  font-size: 12px;
+  color: #ffffff;
+
+}
+input
+{
+	BORDER-RIGHT: #FF8400 1px solid;
+	BORDER-TOP: #FF8400 1px solid; 
+	FONT-SIZE: 11px;
+	BORDER-LEFT: #FF8400 1px solid;
+	COLOR: #181818; 
+	BORDER-BOTTOM: #FF8400 1px solid;
+	FONT-FAMILY: verdana;
+	text-align:left; 
+	background-color:#ffffff;
+}
+textarea
+{
+	background-color: #ffffff;
+	border: double #6666661;
+	border-bottom: double #6666661;
+	FONT-SIZE: 11px; 
+	Z-INDEX: -3; 
+	COLOR: #666666;
+	FONT-WEIGHT: BOLD;
+}
+
+SELECT {
+	FONT-SIZE: 11px; 
+	Z-INDEX: -3; 
+	COLOR: #666666;
+	FONT-WEIGHT: BOLD;
+	background-image: url('../images/btnbg.gif');
+}
+
+.table_scroll{
+ font-size: 10pt; line-height: 20%; padding: 1px; scrollbar-face-color: rgb(255, 255, 255); 
+	scrollbar-face-color: #336699;
+	scrollbar-highlight-color:;
+	scrollbar-shadow-color: ;
+	scrollbar-3dlight-color:;
+	scrollbar-arrow-color:  ;
+	scrollbar-track-color:;
+	scrollbar-darkshadow-color:;
+	overflow: auto;
+	scrollbar-base-color:#ffffff
+}
+
+a{
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: verdana, Arial, Helvetica, sans-serif; text-decoration:none;
+}
+a:hover { text-decoration: underline; color: #666666; font-family: verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: bold;}
+
+hr
+{border: dotted 1px #BDBDBD;}
+
+/* legend and fieldset */
+legend
+{
+	font-weight: bold;
+	color: #666666;
+}
+fieldset {
+ margin: 0px 0;
+ padding: 10px;
+ border: 1px solid #ffcc44;
+}
+
+
+/*	END*/
+
+TD {
+	FONT-SIZE: 11px;  FONT-FAMILY: Tahoma, Verdana, Arial, Helvetica, sans-serif
+}
+.td-new {
+  vertical-align: bottom;
+}
+
+.td-new1 {
+  vertical-align: middle;
+}
+
+.td-new2 {
+  vertical-align: bottom;
+}
+
+.td-listing {
+  vertical-align: middle;
+/*  font-weight: none;*/
+  color: #555555;
+}
+
+
+TH {
+	FONT-SIZE: 11px; 
+	FONT-FAMILY: "Tahoma", Verdana, Arial, Helvetica, sans-serif; 
+	text-align: left;
+	/**background: #7C7C7C;*/
+	background:url('../images/bg-top.gif');
+	color:#000000;
+  	border-right: 1px solid #ffffff;
+  	border-bottom: 1px solid #ffffff
+}
+th a:link, th a:visited, th a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+th a:hover {
+  text-decoration: underline;
+  color:#DDDDDD;
+}
+
+
+
+/* used in top file */
+.disprecordmsg
+{
+font-weight: bold;
+  color: #000000;
+}
+.datedisp
+{
+font-weight: bold;
+  color: #FFFFFF;
+}
+.topTitle
+{
+font-weight: bold;
+FONT-SIZE: 15px;
+  color: #000000;
+}
+/*	end */
+
+
+/*	Module Heading */
+
+
+.screenTitle td {
+  font-size: 18px;
+  font-family: Franklin Gothic Medium, Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color:#FF8400;
+  padding: 3px 12px 5px 11px;
+  vertical-align: middle;
+}
+.screenTitle img,
+.screenTitle input,
+.screenTitle select {
+  vertical-align: middle;
+}
+
+.screenTitle .name,
+.screenTitle b {
+  font-weight: normal; 
+  color: #0D1DE0; 
+}
+
+/*	*/
+
+
+/* Paging */
+.paging a {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ff6600; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.inactivelink {
+	FONT-WEIGHT: bolder; FONT-SIZE: 16px; COLOR: #ff9900; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+
+/*	END Paging*/
+
+/* Menu  */
+
+.menubackgr {
+	/*BACKGROUND: #cccccc; BORDER-BOTTOM: #cccccc 1px solid */
+	background:url('../images/bg-menu.gif') repeat-x; border-bottom:1px solid #cccccc
+}	
+
+/* */
+
+/* login */
+.td-login {
+  vertical-align: middle;
+  font-weight: BOLD;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.screenBody {
+  margin: 0 10px;
+}
+.formFields {
+  border-collapse: collapse;
+  margin-top: 2px;
+}
+
+.formFields td {
+  padding: 3px;
+  vertical-align: top;
+}
+
+
+.formFields td.name,
+.formFields td.nameError {
+  vertical-align: top;
+  padding-left: 0;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+  width: 200px;
+}
+
+
+#login {
+  width: 450px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+#get_password {
+	text-align: left;
+	padding-left: 0;
+}
+
+#get_password a:link, 
+#get_password a:visited {
+	color: #444444;
+}
+
+#loginForm {
+	padding: 10px;
+	
+}
+/* END Login */
+
+
+
+/*	Extra Class */
+.errormsg
+{
+font-weight: bold;
+  color: #FF0000;
+}
+.imagestyle{border: 0px none;
+}
+.evenrowbg {
+	background-color: #FCF2E0; border-bottom:1px solid #cccccc;
+}
+
+.oddrowbg {
+	background-color: #FEFCF7; border-bottom:1px solid #cccccc;
+}
+.bmatter
+{
+	font-family: verdana, Arial, Helvetica, sans-serif; 
+	font-size:11px;
+	font-weight:bold;
+	color:#000000;
+}
+.wmatter
+{
+	font-family: verdana, Arial, Helvetica, sans-serif; 
+	font-size:10px;
+	font-weight:bold;
+	color:#ffffff;
+}
+.wmatterbold
+{
+	font-family: verdana, Arial, Helvetica, sans-serif; 
+	font-size:11px;
+	font-weight:bold;
+	color:#555555;
+}
+.bluematter
+{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size:11px;
+	font-weight:bold;
+	color:336699;
+}
+.graymatter
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	font-size:12px;
+	font-weight:bold;
+	color:#FF8400;
+	line-height:25px;
+}
+.bluematterbig
+{
+	font-family: Vardana, Arial, Helvetica, sans-serif; 
+	font-size:13px;
+	font-weight:bold;
+	color:336699;
+}
+
+
+.bluematternormal
+{
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size:11px;
+	font-weight:normal;
+	color:336699;
+}
+
+.middlebgcolor
+{
+	background-color : #ffffff;
+}
+.table-border
+{
+	border-left: 1px solid #C7C7C7;
+	border-right: 1px solid #C7C7C7;
+	background-color: #ffffff;
+}
+
+.bg-top
+{background:url('../images/bg-top.gif') repeat-x; height:52px}
+.bg-bottom
+{background:url('../images/bg-bottom.gif') repeat-x; height:52px}
+/*
+.head-box
+{border:1px solid #cccccc; height:35px;  background:url(../images/bg-head.gif) repeat-x;}
+*/
+.main-box
+{border:1px solid #cccccc; background-color:#f9f9f9; height:400px; vertical-align:top;}
+.bg-login
+{
+	background:url('../images/bg-yellow.gif'); color:#ffffff; font-weight:bold; text-align:center; font-size:20px
+}
+
+/******************Image viewer******************/
+#thumbBox{ /*Outermost DIV for thumbnail viewer*/
+position: absolute;
+left: 0;
+top: 0;
+width: auto;
+padding: 10px;
+padding-bottom: 0;
+background: #313131;
+visibility: hidden;
+z-index: 10;
+cursor: hand;
+cursor: pointer;
+}
+
+#thumbBox .footerbar{ /*Footer DIV of thumbbox that contains "close" link */
+font: bold 16px Tahoma;
+letter-spacing: 5px;
+line-height: 1.1em;
+color: white;
+padding: 5px 0;
+text-align: right;
+}
+
+
+#thumbBox #thumbImage{ /*DIV within thumbbox that holds the enlarged image */
+background-color: white;
+}
+
+#thumbLoading{ /*DIV for showing "loading" status while thumbbox is being generated*/
+position: absolute;
+visibility: hidden;
+border: 1px solid black;
+background-color: #EFEFEF;
+padding: 5px;
+z-index: 5;
+}
